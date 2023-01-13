@@ -10,6 +10,7 @@
     "start": "yarn build && NODE_ENV=production node dist/src/app.js"
   },
   "dependencies": {
+    "@koa/cors": "^4.0.0",
     "dotenv": "^16.0.3",
     "koa": "^2.14.1",
     "koa-bodyparser": "^4.3.0",
